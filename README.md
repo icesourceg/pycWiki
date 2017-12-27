@@ -14,9 +14,16 @@ $ sudo apt install python-pip
 $ git clone https://github.com/icesourceg/pycWiki.git
 ```
 
-3. Install requirements
+3. Install requirements and install package
 ```
+$ cd pycWiki
 $ pip install -r requirements
+$ sudo python setup.py install
+```
+
+4. Install Package
+```
+
 ```
 
 # Usage Example
