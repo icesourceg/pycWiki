@@ -48,6 +48,7 @@ output:
 ```
 
 ## Post Page
+
 ```
 ... # login
 
@@ -64,8 +65,6 @@ output:
 
 
 ```
-
-# 
 
 # Errors
 1. Unsupported locale setting
