@@ -9,4 +9,11 @@ setup(name='pycWiki',
       author_email='icesourceg@gmail.com',
       license='Public',
       packages=find_packages(),
+      install_requires=[
+          'simplejson', 
+          'requests',
+          'urllib2'
+          'urllib',
+          'ssl'
+      ],
       zip_safe=False)

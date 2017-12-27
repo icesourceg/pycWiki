@@ -1,0 +1,7 @@
+setuptools
+simplejson
+requests
+urllib2
+urllib
+ssl
+
