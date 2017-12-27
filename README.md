@@ -23,7 +23,9 @@ $ sudo python setup.py install
 
 # Usage Example
 ## Login
-```
+
+```python
+
 from pycWiki import pycWiki
 oWiki = pycWiki.pycWiki()
 oWiki.username = "icesourceg25"
@@ -31,13 +33,11 @@ oWiki.domain = ""
 oWiki.wiki_url = "https://www.mediawiki.org/w/api.php"
 oWiki.password = "Pranata25"
 oWiki.wiki_login()
-
-'''
-
+```
 
 ## Get Page
-```
-... # login
+
+```python
 
 json_output = oWiki.wiki_getPage("User:Icesourceg25")
 print json_output
@@ -49,8 +49,7 @@ output:
 
 ## Post Page
 
-```
-... # login
+```python
 
 pagename = "User:Icesourceg25"
 summary = "This is for summary"
@@ -62,7 +61,6 @@ print output
 
 output:
 {u'edit': {u'pageid': 729872, u'title': u'User:Icesourceg25', u'newtimestamp': u'2017-12-27T17:42:13Z', u'contentmodel': u'wikitext', u'result': u'Success', u'oldrevid': 2600875, u'newrevid': 2664614}}
-
 
 ```
 
