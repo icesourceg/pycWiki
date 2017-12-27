@@ -21,11 +21,6 @@ $ pip install -r requirements
 $ sudo python setup.py install
 ```
 
-4. Install Package
-```
-
-```
-
 # Usage Example
 ## Login
 ```
@@ -47,7 +42,7 @@ oWiki.wiki_login()
 json_output = oWiki.wiki_getPage("User:Icesourceg25")
 print json_output
 
-## output:
+output:
 {u'batchcomplete': u'', u'query': {u'pages': {u'729872': {u'ns': 2, u'pageid': 729872, u'revisions': [{u'*': u'My pAge', u'contentmodel': u'wikitext', u'contentformat': u'text/x-wiki'}], u'title': u'User:Icesourceg25'}}}}
 
 ```
@@ -64,7 +59,7 @@ section = 0
 output = oWiki.wiki_postPage(pagename, summary, content, section)
 print output
 
-## output:
+output:
 {u'edit': {u'pageid': 729872, u'title': u'User:Icesourceg25', u'newtimestamp': u'2017-12-27T17:42:13Z', u'contentmodel': u'wikitext', u'result': u'Success', u'oldrevid': 2600875, u'newrevid': 2664614}}
 
 
